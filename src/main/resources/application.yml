@@ -1,0 +1,11 @@
+filepath:
+  E:\myProject\211\lhbtest\src\main\resources\static\upload\
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  http:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
